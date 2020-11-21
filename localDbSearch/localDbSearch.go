@@ -152,7 +152,7 @@ func SearchMoviesByYear(w http.ResponseWriter, r *http.Request) {
 	var movies []models.Movie
 	// we get params with mux.
 	var params = mux.Vars(r)
-	var yearRange = strings.Split(params["year"], "- ") //split by -
+	var yearRange = strings.Split(params["year"], "-") //split by -
 
 	y0, err := strconv.Atoi(yearRange[0])
 	_ = err
