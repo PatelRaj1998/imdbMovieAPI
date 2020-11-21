@@ -1,4 +1,4 @@
-imdbMovieAPI
+imdbMovieAPI in Golang
 
 type Movie struct { Title string
 ReleasedYear int
