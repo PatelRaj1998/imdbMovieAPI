@@ -17,6 +17,11 @@ Implemented following search APIs against local database only:
 
 NOTE: Change to your API key for IMDB in gomdb.go file.
 
+NOTE: Have .env file in your main directory of the project and contain the following information:
+    PORT=:80
+    CONNECTION_STRING="mongodb://localhost:27017"
+
+
 API Routes examples(Postman): 
 id: localhost:80/api/movies/id/tt0848228 
 rating less than: localhost:80/api/movies/rating-less/7.4 
