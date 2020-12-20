@@ -17,7 +17,7 @@ Implemented following search APIs against local database only:
 
 NOTE: Change to your API key for IMDB in gomdb.go file.
 
-NOTE: Have .env file in your main directory of the project and contain the following information:
+NOTE: Have .env file in your main directory of the project and contain the following information:<br/>
     PORT=:80 <br/>
     CONNECTION_STRING="mongodb://localhost:27017" <br/>
 
